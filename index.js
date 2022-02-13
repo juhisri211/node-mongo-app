@@ -5,8 +5,8 @@ let mongoose = require('mongoose');
 let app = express();
 
 let port = process.env.PORT || 8080;
-let dbuser = process.env.DBUSER || "juhisri02";
-let dbpass = process.env.PASS || "WkwirMGCt2ecDkmK";
+let dbuser = process.env.DBUSER || "";  //Add DBUSER
+let dbpass = process.env.PASS || "";    //Add Password
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
